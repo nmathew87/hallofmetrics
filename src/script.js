@@ -23,7 +23,7 @@ scene.fog = new THREE.Fog( 0x000000, 0, 100 );
  */
  const ambientLight = new THREE.AmbientLight(0xffffff, 0.2)
  scene.add(ambientLight)
- gui.add(ambientLight, 'intensity').min(0).max(1).step(0.01)
+//  gui.add(ambientLight, 'intensity').min(0).max(1).step(0.01)
  
 //  const directionalLight = new THREE.DirectionalLight(0x00fffc, 0.3)
 //  directionalLight.position.set(1, 0.25, 0)
